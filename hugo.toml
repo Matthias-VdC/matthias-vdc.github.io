@@ -1,0 +1,8 @@
+baseURL = 'https://matthias-vdc.github.io/'
+languageCode = 'en-us'
+title = 'Matthias Van de Casteele'
+theme = ["PaperMod"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
