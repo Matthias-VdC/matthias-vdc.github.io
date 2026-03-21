@@ -2,13 +2,23 @@ baseURL = 'https://matthias-vdc.github.io/'
 languageCode = 'en-us'
 title = 'Matthias Van de Casteele'
 theme = ["PaperMod"]
+enableGitInfo = true
 
 [markup]
   [markup.highlight]
+    anchorLineNos = false
     codeFences = true
-    guessSyntax = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
     lineNos = false
-    style = "dracula"
+    lineNumbersInTable = true
+    noClasses = true
+    style = 'monokai'
+    tabWidth = 4
+    wrapperClass = 'highlight'
 
 [params]
   defaultTheme = "dark"
@@ -19,4 +29,11 @@ theme = ["PaperMod"]
     dir = ':cacheDir/images'
 
 [params.assets]
-    favicon = "favicon.svg"
+    favicon = "favicon.ico"
+    favicon32x32 = "favicon.svg"
+    appleTouchIcon = "apple-touch-icon.png"
+    favicon96x96 = "favicon-96x96.png"
+    webmanifest = "site.webmanifest"
+
+[frontmatter]
+  lastmod = "lastmod"
