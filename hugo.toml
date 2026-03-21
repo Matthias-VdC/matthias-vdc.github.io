@@ -8,4 +8,4 @@ theme = ["PaperMod"]
     dir = ':cacheDir/images'
 
 [params.assets]
-    favicon = "/favicon.svg"
+    favicon = "favicon.svg"
