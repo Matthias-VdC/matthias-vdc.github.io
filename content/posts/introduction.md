@@ -2,7 +2,7 @@
 title = 'Hello World'
 date = '2026-03-20T23:02:30+01:00'
 draft = false
-tags = ["Introduction", "Personal"]
+tags = ["Personal"]
 +++
 
 Hello!
