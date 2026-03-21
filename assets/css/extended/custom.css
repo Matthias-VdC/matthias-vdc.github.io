@@ -1,0 +1,68 @@
+:root {
+    --font: "Inter", sans-serif;
+    --heading-font: "Outfit", sans-serif;
+}
+
+body {
+    font-family: var(--font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.profile_inner .title {
+    font-family: var(--heading-font);
+}
+
+.post-entry {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+[data-theme="dark"] .post-entry {
+    background: rgba(255, 255, 255, 0.02);
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.post-entry:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .post-entry:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.entry-header h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.entry-content {
+    color: var(--secondary);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.entry-footer {
+    margin-top: 16px;
+    font-size: 13px;
+    color: var(--tertiary);
+}
+
+.nav .logo-switches {
+    margin-inline-start: auto;
+}

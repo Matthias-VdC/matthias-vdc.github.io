@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Matthias Van de Casteele'
 theme = ["PaperMod"]
 
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = false
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
