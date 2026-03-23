@@ -16,7 +16,7 @@ enableGitInfo = true
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = 'monokai'
+    style = 'nordic'
     tabWidth = 4
     wrapperClass = 'highlight'
 
