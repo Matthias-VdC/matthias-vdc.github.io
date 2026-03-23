@@ -1,9 +1,10 @@
 +++
 date = '2026-03-21'
-lastmod = '2026-03-21'
+lastmod = '2026-03-23'
 draft = false
 title = '[WIP] ESP32 Flipper Zero: BLE Spamming Attack'
-tags = ['WIP', 'ESP32', 'BLE', 'Security']
+description = 'Building a BLE spamming tool on an ESP32 using bare-metal Rust (no_std), inspired by the Flipper Zero.'
+tags = ['WIP', 'ESP32', 'BLE', 'Security', 'Rust']
 +++
 
 I am still working on this project, but I wanted to share my progress so far. This is a work in progress and I will update this post when I have more time to work on it.

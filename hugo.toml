@@ -4,6 +4,9 @@ title = 'Matthias Van de Casteele'
 theme = ["PaperMod"]
 enableGitInfo = true
 
+[outputs]
+    home = ["HTML", "RSS"]
+
 [markup]
   [markup.highlight]
     anchorLineNos = false
@@ -23,6 +26,35 @@ enableGitInfo = true
 [params]
   defaultTheme = "dark"
   disableThemeToggle = false
+  author = "Matthias Van de Casteele"
+  description = "Personal blog of Matthias Van de Casteele - Anything about security, web, hardware, technology and anything else that I find interesting"
+  images = ["cover.png"]
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Matthias Van de Casteele"
+    subtitle = "Tech tinkerer"
+    imageUrl = "me.jpg"
+    imageWidth = 120
+    imageHeight = 120
+    imageDisplay = "rounded"
+
+    [[params.socialIcons]]
+      name = "github"
+      url = "https://github.com/matthias-vdc"
+    [[params.socialIcons]]
+      name = "linkedin"
+      url = "https://be.linkedin.com/in/matthias-van-de-casteele-535a45395"
+
+    [[params.profileMode.buttons]]
+      name = "Latest Posts"
+      url = "posts"
 
 [caches]
   [caches.images]
