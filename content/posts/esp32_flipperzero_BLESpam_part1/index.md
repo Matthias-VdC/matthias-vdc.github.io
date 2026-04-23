@@ -73,6 +73,8 @@ I hope this explanation makes the following folder structure and code easier to 
 
 WIP
 
+Project on hold, esp broke. Need to wait for another to arrive in like a month from now.
+
 
 <!--### BLE Protocol
 Before actually starting to code, I wanted to understand the BLE protocol a bit more in depth.
