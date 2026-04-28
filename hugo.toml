@@ -50,7 +50,7 @@ enableGitInfo = true
       url = "https://github.com/matthias-vdc"
     [[params.socialIcons]]
       name = "linkedin"
-      url = "https://be.linkedin.com/in/matthias-van-de-casteele-535a45395"
+      url = "https://www.linkedin.com/in/matthiasvdc/"
 
     [[params.profileMode.buttons]]
       name = "Latest Posts"
